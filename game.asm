@@ -1,4 +1,4 @@
-%include "/usr/local/share/asm_io.inc"
+%include "asm_io.inc"
 
 
 ; the file that stores the initial state
