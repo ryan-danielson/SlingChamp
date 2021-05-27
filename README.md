@@ -15,3 +15,6 @@ You can also link using gcc instead. Must force 32bit as that is what it's writt
 
 # Instructions
 Collect as many letters as possible without hooking yourself!
+
+# Issues
+As this is a terminal-based game with constant refreshing, some terminals perform better than others. Have had best luck in GNOME terminal, iTerm; poor performance in URXVT.
