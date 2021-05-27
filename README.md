@@ -3,9 +3,9 @@ An assembly game where slinging is all the rage.
 
 # Compile Instructions
 To compile using NASM under Ubuntu 18.04.5:
-* nasm -f elf32 game.asm
-* ld game.o -m elf_i386 -o game --entry main -dynamic-linker /lib/ld-linux.so.2
-* ./game
+* nasm -f elf32 slingchamp.asm
+* ld slingchamp.o -m elf_i386 -o slingchamp --entry main -dynamic-linker /lib/ld-linux.so.2
+* ./slingchamp
 
 You can also link using gcc instead. Must force 32bit as that is what it's written in.
 
