@@ -12,6 +12,7 @@ You can also link using gcc instead. Must force 32bit as that is what it's writt
 # Controls
 * <kbd>a</kbd><kbd>s</kbd><kbd>w</kbd><kbd>d</kbd>: Orient player around a platform (left, down, up, right)
 * <kbd>j</kbd><kbd>k</kbd><kbd>i</kbd><kbd>l</kbd>: Shoot hook in givent direction  (left, down, up, right)
+* Double-tap hook direction for super-speed!
 
 # Instructions
 Collect as many letters as possible without hooking yourself!
