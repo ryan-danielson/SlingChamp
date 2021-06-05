@@ -1,5 +1,7 @@
 # SlingChamp
-An assembly game where slinging is all the rage.
+An x86 assembly game where slinging is all the rage. Collect as many letters as possible without hooking yourself!
+
+![slingchamp](https://user-images.githubusercontent.com/23747085/120880310-a3d30980-c57e-11eb-8fcf-9b7638e75d32.png)
 
 ## Compile Instructions
 To compile using NASM under Ubuntu 18.04.5:
@@ -15,11 +17,6 @@ You can also link using gcc instead. Must force 32bit as that is what it's writt
 * <kbd>j</kbd><kbd>k</kbd><kbd>i</kbd><kbd>l</kbd>: Shoot hook in givent direction  (left, down, up, right)
 * Double-tap hook direction for super-speed!
 
-## Instructions
-Collect as many letters as possible without hooking yourself!
-
 ## Issues
 As this is a terminal-based game with constant refreshing, some terminals perform better than others. Have had best luck in GNOME terminal, iTerm; poor performance in URXVT.
-
-![slingchamp](https://user-images.githubusercontent.com/23747085/120880310-a3d30980-c57e-11eb-8fcf-9b7638e75d32.png)
 
