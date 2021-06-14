@@ -5,7 +5,7 @@ An x86 assembly game where slinging is all the rage. Collect as many letters as 
 
 ## Compile Instructions
 To compile using NASM under Ubuntu 18.04.5:
-i
+
         $ nasm -f elf32 slingchamp.asm
         $ ld slingchamp.o -m elf_i386 -o slingchamp --entry main -dynamic-linker /lib/ld-linux.so.2 -lc
         $ ./slingchamp
