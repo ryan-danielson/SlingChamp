@@ -1,13 +1,13 @@
-# SlingChamp
+# SlingGuy
 An x86 assembly game where slinging is all the rage. Collect as many letters as possible without hooking yourself!
 
-![slingchamp](https://user-images.githubusercontent.com/23747085/120880310-a3d30980-c57e-11eb-8fcf-9b7638e75d32.png)
+![slingguy](https://user-images.githubusercontent.com/23747085/120880310-a3d30980-c57e-11eb-8fcf-9b7638e75d32.png)
 
 ## Compile Instructions
 To compile using NASM under Ubuntu 18.04.5:
 
-        $ nasm -f elf32 slingchamp.asm
-        $ ld slingchamp.o -m elf_i386 -o slingchamp --entry main -dynamic-linker /lib/ld-linux.so.2 -lc
+        $ nasm -f elf32 slingguy.asm
+        $ ld slingguy.o -m elf_i386 -o slingguy --entry main -dynamic-linker /lib/ld-linux.so.2 -lc
         $ ./slingchamp
 
 You can also link using gcc instead. Must force 32bit as that is what it's written in.
