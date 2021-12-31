@@ -8,7 +8,7 @@ To compile using NASM under Ubuntu 18.04.5:
 
         $ nasm -f elf32 slingguy.asm
         $ ld slingguy.o -m elf_i386 -o slingguy --entry main -dynamic-linker /lib/ld-linux.so.2 -lc
-        $ ./slingchamp
+        $ ./slingguy
 
 You can also link using gcc instead. Must force 32bit as that is what it's written in.
 
