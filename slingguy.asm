@@ -1,6 +1,5 @@
 %include "asm_io.inc"
 
-
 ; the file that stores the initial state
 %define BOARD_FILE 'board.txt'
 
@@ -32,7 +31,6 @@
 %define HOOKRIGHT 'l'
 
 segment .data
-
 	; used to fopen() the board file defined above
 	board_file			db BOARD_FILE,0
 
